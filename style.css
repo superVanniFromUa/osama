@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header nav {
+
+}
+
+header img{
+width: 90px;    
+}
+
+header{
+   background-image:linear-gradient(black, gray);
+   padding: 90px 0;
+   text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.img {
+    position: relative;
+    top: 50px;
+}
+
+main {
+    background-image:linear-gradient(red, darkred);
+}
+
+main h1 {
+color: white;
+font-size: 50px;
+text-align: center;
+padding-bottom: 10px;
+}
+
+main a {
+display: block;
+text-decoration: none;
+color: white;
+font-size: 40px;
+
+}
+
+main h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.text {
+ color: rgb(230, 218, 198);
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.info {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.section {
+    
+}
+
+footer {
+    color: grey;
+    text-align: center;
+    padding-bottom: 25px;
+    background-image:linear-gradient(black, rgb(32, 29, 29));
+}
+
+footer p{
+    padding-top: 25px;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu-item{
+        transition: 0.5s;
+    background-color: white;
+    width: 170px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.menu-item img{
+    width: 100px;
+}
+.menu-item a{
+    color: black;
+    font-size: 18px;
+}
+.menu-item:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.reklama {
+    background-image: url(https://img.freepik.com/free-photo/a-painting-of-sushi-and-a-plate-with-a-picture-of-a-fish-on-it_188544-12221.jpg?size=626&ext=jpg&ga=GA1.1.1788068356.1706140800&semt=ais);
+    width: 100%;
+    background-size: cover;
+}
+
+.iphone {
+    height: 500px;
+    padding-top: 50px;
+}
+
+.playmarket img{
+    height: 100px;
+    position: relative;
+    left: 320px;
+    display: block;
+    padding-bottom: 20px;
+    top: -250px;
+}
